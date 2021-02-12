@@ -41,6 +41,6 @@ public class MessageController {
     }
 
     public String helloWorld() {
-        return "";
+        return getMessage();
     }
 }
