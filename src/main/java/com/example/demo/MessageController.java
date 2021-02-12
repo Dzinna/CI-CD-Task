@@ -39,4 +39,8 @@ public class MessageController {
     public void saveMessage(@PathVariable String message) {
         repo.save(new Message(message));
     }
+
+    public String helloWorld() {
+        return "";
+    }
 }
